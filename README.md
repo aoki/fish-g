@@ -1,26 +1,27 @@
-[![Build Status][travis-badge]][travis-link]
-[![Slack Room][slack-badge]][slack-link]
-
 # g
 
-Move directory via ghq list
+Move directory via ghq list.
+
+![g](imgs/g.gif)
+
+## Requrements
+
+```
+ghq
+fzf
+```
 
 ## Install
 
 With [fisherman]
 
 ```
-fisher ringohub/g
+fisher ringohub/fish-g
 ```
 
 ## Usage
 
 ```fish
 g
+g --no-cache
 ```
-
-[travis-link]: https://travis-ci.org/ringohub/g
-[travis-badge]: https://img.shields.io/travis/ringohub/g.svg
-[slack-link]: https://fisherman-wharf.herokuapp.com
-[slack-badge]: https://fisherman-wharf.herokuapp.com/badge.svg
-[fisherman]: https://github.com/fisherman/fisherman
